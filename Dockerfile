@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:20.04
 RUN apt-get update
 
 # https://www.swi-prolog.org/build/PPA.html
