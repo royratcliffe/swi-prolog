@@ -1,6 +1,6 @@
-# swi-prolog container
+# SWI-Prolog Container
 
-See https://www.swi-prolog.org/build/PPA.html for details.
+See [PPA](https://www.swi-prolog.org/build/PPA.html) for details.
 
 ## SWI-Prolog on Alpine
 
