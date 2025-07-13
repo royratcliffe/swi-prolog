@@ -1,7 +1,8 @@
-FROM ubuntu:22.04
+FROM ubuntu
 
 # https://www.swi-prolog.org/build/PPA.html
-RUN apt-get update && \
+RUN export DEBIAN_FRONTEND=noninteractive && \
+    apt-get update && \
     apt-get install -y software-properties-common && \
     apt-add-repository ppa:swi-prolog/devel && \
     apt-get update && \
