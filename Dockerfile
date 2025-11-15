@@ -5,7 +5,7 @@
 # following command prints the version:
 #   cat /etc/os-release
 # See https://hub.docker.com/_/ubuntu for details.
-FROM ubuntu
+FROM mcr.microsoft.com/devcontainers/base:noble
 
 # https://www.swi-prolog.org/build/PPA.html
 RUN export DEBIAN_FRONTEND=noninteractive && \
