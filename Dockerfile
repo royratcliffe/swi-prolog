@@ -7,6 +7,8 @@
 # See https://hub.docker.com/_/ubuntu for details.
 FROM mcr.microsoft.com/devcontainers/base:noble
 
+# Install SWI-Prolog from the official PPA. Install the development release as
+# per instructions at the following URL:
 # https://www.swi-prolog.org/build/PPA.html
 RUN export DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
